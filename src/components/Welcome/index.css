@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.welcome-app-container {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+}
+.heading {
+  font-family: Bree Serif;
+  font-size: 33px;
+  font-weight: 700;
+  color: #f0bb03;
+  padding-top: 40px;
+}
+.para {
+  font-family: Bree Serif;
+  font-size: 17px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+.button {
+  font-family: Bree Serif;
+  font-size: 17px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 9px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 72px;
+  }
+  .para {
+    font-size: 27px;
+  }
+}
